@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jagruti Yadav | Web Developer</title>
+    <title>Jagriti Yadav | CV Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -10,19 +10,19 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', sans-serif;
         }
 
         body {
+            font-family: Arial, Helvetica, sans-serif;
             background: linear-gradient(135deg, #667eea, #764ba2);
             padding: 20px;
         }
 
-        .cv-container {
+        .container {
             max-width: 900px;
             margin: auto;
             background: #ffffff;
-            border-radius: 15px;
+            border-radius: 12px;
             padding: 40px;
             box-shadow: 0 15px 35px rgba(0,0,0,0.2);
         }
@@ -32,23 +32,33 @@
             margin-bottom: 30px;
         }
 
-        .header img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid #667eea;
-            margin-bottom: 15px;
-        }
-
         .header h1 {
             font-size: 32px;
             color: #333;
+            margin-bottom: 5px;
         }
 
         .header p {
             color: #666;
-            margin-top: 5px;
+            font-size: 15px;
+        }
+
+        .image-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .image-section img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+
+        .image-section img:hover {
+            transform: scale(1.05);
         }
 
         section {
@@ -62,31 +72,48 @@
             padding-bottom: 5px;
         }
 
+        section p {
+            color: #444;
+            line-height: 1.6;
+        }
+
         ul {
-            list-style: square;
             padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
         }
 
         .skills span {
             display: inline-block;
             background: #667eea;
-            color: #fff;
-            padding: 8px 12px;
+            color: white;
+            padding: 7px 14px;
             border-radius: 20px;
             margin: 5px 5px 0 0;
             font-size: 14px;
+            transition: background 0.3s ease;
+        }
+
+        .skills span:hover {
+            background: #764ba2;
         }
 
         .footer {
             text-align: center;
             margin-top: 20px;
-            color: #777;
             font-size: 14px;
+            color: #777;
         }
 
         @media (max-width: 600px) {
-            .cv-container {
+            .container {
                 padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 24px;
             }
         }
     </style>
@@ -94,21 +121,26 @@
 
 <body>
 
-<div class="cv-container">
+<div class="container">
 
     <div class="header">
-        <img src="profile.jpg" alt="Jagruti Yadav">
-        <h1>Jagruti Yadav</h1>
-        <p>Web Developer | Computer Science Student | Future Entrepreneur</p>
-        <p>Email: yourmail@gmail.com | Nepal</p>
+        <h1>Jagriti Yadav</h1>
+        <p>Web Developer | Computer Science Student | Nepal</p>
+        <p>Email: jagriti86124@gmail.com</p>
+    </div>
+
+    <!-- Image Section with Dummy Photo -->
+    <div class="image-section">
+        <img src="https://via.placeholder.com/300" alt="Profile Photo">
+        <p style="margin-top:10px; color:#777;">Profile Photo</p>
     </div>
 
     <section>
         <h2>About Me</h2>
         <p>
             I am a passionate third-year Computer Science student specializing in Web Development.
-            I enjoy building responsive and user-friendly websites. My goal is to become a confident
-            web developer and successful businesswoman in the future.
+            I enjoy building responsive and user-friendly websites. My goal is to grow professionally,
+            improve my communication skills, and become a successful entrepreneur in the future.
         </p>
     </section>
 
@@ -141,13 +173,13 @@
     <section>
         <h2>Career Objective</h2>
         <p>
-            To build a strong career in Web Development, improve my communication skills,
-            and create innovative digital solutions that make an impact.
+            To build a strong career in Web Development and create innovative digital solutions
+            that make a positive impact.
         </p>
     </section>
 
     <div class="footer">
-        © 2026 Jagruti Yadav | Hosted on GitHub Pages
+        © 2026 Jagriti Yadav | Hosted on GitHub Pages
     </div>
 
 </div>
