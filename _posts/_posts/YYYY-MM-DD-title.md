@@ -2,6 +2,11 @@
 title: "My First Blog Post"
 date: 2026-02-20
 ---
+Hello everyone! 👋
 
-This is my first blog post using Jekyll.
-I am learning web development step by step.
+Welcome to my blog. This is my very first post created using Jekyll.
+
+I am currently learning web development and exploring how static websites work. 
+I’m excited to build more projects and improve my skills.
+
+Stay tuned for more posts! 🚀
